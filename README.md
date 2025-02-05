@@ -1,3 +1,41 @@
+# Api con RESTful con codeigniter 4
+
+Esta versión fue probada con PHP 8.1.0
+
+Configuración
+
+- Copiar el contenido del archivo env y crear un archivo .env en la raíz
+- Habilitar y configurar las variables respectivamente:
+
+`CI_ENVIRONMENT = development`
+`database.default.hostname = localhost ` 
+`database.default.database = ci4` ***el nombre de tu base de datos***
+`database.default.username = root` ***usuario***
+`database.default.password = root` ***contraseña***
+`database.default.DBDriver = MySQLi`
+
+
+## Tener en cuenta
+Habilitar las siguientes extensiones en el archivo php.ini para 
+poder que funcione el comando `php spark serve` y poder probar la Api en local
+
+`extension=mbstring`
+`extension=intl`
+`extension=mysqli`
+
+## verificar también la ruta de las extensiones 
+ejemplo:
+
+`extension_dir = "C:\MAMP\bin\php\php8.1.0\ext`
+
+## ejecutar composer
+
+`ejecutar composer install`
+
+## Probar desde el navegador
+ok todo listo para probar abriendo el archivo test_api.html con el navegador
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
