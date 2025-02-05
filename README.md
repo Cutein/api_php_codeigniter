@@ -8,20 +8,20 @@ Configuración
 - Habilitar y configurar las variables respectivamente:
 
 `CI_ENVIRONMENT = development`
-`database.default.hostname = localhost ` 
-`database.default.database = ci4` ***el nombre de tu base de datos***
-`database.default.username = root` ***usuario***
-`database.default.password = root` ***contraseña***
-`database.default.DBDriver = MySQLi`
+`database.default.hostname = localhost `  
+`database.default.database = ci4` ***el nombre de tu base de datos***  
+`database.default.username = root` ***usuario***  
+`database.default.password = root` ***contraseña***  
+`database.default.DBDriver = MySQLi`  
 
 
 ## Tener en cuenta
 Habilitar las siguientes extensiones en el archivo php.ini para 
 poder que funcione el comando `php spark serve` y poder probar la Api en local
 
-`extension=mbstring`
-`extension=intl`
-`extension=mysqli`
+`extension=mbstring`  
+`extension=intl`  
+`extension=mysqli`  
 
 ## verificar también la ruta de las extensiones 
 ejemplo:
