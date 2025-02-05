@@ -7,7 +7,7 @@ Configuración
 - Copiar el contenido del archivo env y crear un archivo .env en la raíz
 - Habilitar y configurar las variables respectivamente:
 
-`CI_ENVIRONMENT = development`
+`CI_ENVIRONMENT = development`  
 `database.default.hostname = localhost `  
 `database.default.database = ci4` ***el nombre de tu base de datos***  
 `database.default.username = root` ***usuario***  
